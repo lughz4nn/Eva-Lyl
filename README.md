@@ -31,8 +31,8 @@ $ git pull
 
 <br/>
 
-<p style="text-align: center;">
+<img src="https://i.gifer.com/origin/1b/1beb908cab6520ce70dcc2aba8e28317.gif"/> 
+
 <footer>
     <strong><i>No me hago responsable del mal uso del programa.</i></strong>
 </footer>
-</p>
