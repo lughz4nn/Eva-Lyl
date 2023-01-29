@@ -20,6 +20,15 @@ $ python3 main.py <documento o email> <accion [consultar,atacar]>
 $ git pull
 ```
 
+## Ejemplo
+```console
+# Esto hará una consulta hacía el correo "juan@gmail.com"
+$ python3 main.py juan@gmail.com consultar
+
+# Esto hará una consulta hacía al npumero de documento "1043443322"
+$ python3 main.py 1043443322 consultar
+```
+
 <br/>
 
 <footer>
