@@ -20,8 +20,6 @@ $ python3 main.py <documento o email> <accion [consultar,atacar]>
 $ git pull
 ```
 
-<p align="center">
-    <footer>
-        <i align="center">No me hago responsable del mal uso del programa.</i>
-    </footer>
-</p>
+<footer>
+    <strong><i>No me hago responsable del mal uso del programa.</i></strong>
+</footer>
