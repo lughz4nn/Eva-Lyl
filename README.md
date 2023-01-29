@@ -21,9 +21,7 @@ $ git pull
 ```
 
 <p align="center">
-    <strong>
-        <footer>
-            <i>No me hago responsable del mal uso del programa.</i>
-        </footer>
-    </strong>
+    <footer>
+        <i>No me hago responsable del mal uso del programa.</i>
+    </footer>
 </p>
