@@ -14,12 +14,6 @@ $ python3 main.py <documento o email> <accion [consultar,atacar]>
 # La opción atacar (fuerza bruta) se implementará en el futuro
 ```
 
-## Actualizar
-```console
-# Primero accede al directorio eva-lyl
-$ git pull
-```
-
 ## Ejemplo
 ```console
 # Esto hará una consulta hacía el correo "juan@gmail.com"
@@ -27,6 +21,12 @@ $ python3 main.py juan@gmail.com consultar
 
 # Esto hará una consulta hacía al npumero de documento "1043443322"
 $ python3 main.py 1043443322 consultar
+```
+
+## Actualizar
+```console
+# Primero accede al directorio eva-lyl
+$ git pull
 ```
 
 <br/>
