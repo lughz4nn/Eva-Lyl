@@ -6,6 +6,7 @@ Programa para consultar el nombre de institución, id y permisos de administrado
 [![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/downloads/release/python-360/)
 [![OS](https://img.shields.io/badge/OS-Windows-0078d7.svg)](https://www.microsoft.com/en-us/windows)
 [![OS](https://img.shields.io/badge/OS-Linux-0078d7.svg)](https://www.linux.org/)
+[![Compatibility](https://img.shields.io/badge/termux-compatible-brightgreen.svg)](https://termux.com/)
 
 ## Instalación
 ```console
@@ -16,17 +17,16 @@ $ pip3 install -r requirements.txt
 
 ## Uso
 ```console
-$ python3 main.py <documento o email> <accion [consultar,atacar]>
-# La opción atacar (fuerza bruta) se implementará en el futuro
+$ python3 main.py <documento o email>
 ```
 
 ## Ejemplo
 ```console
 # Esto hará una consulta hacía el correo "juan@gmail.com"
-$ python3 main.py juan@gmail.com consultar
+$ python3 main.py juan@gmail.com
 
-# Esto hará una consulta hacía al npumero de documento "1043443322"
-$ python3 main.py 1043443322 consultar
+# Esto hará una consulta hacía al numero de documento "1043443322"
+$ python3 main.py 1043443322
 ```
 
 ## Actualizar
