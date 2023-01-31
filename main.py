@@ -67,24 +67,10 @@ def get_data(document):
     print('\nEl documento no existe en la plataforma\n')
     sys.exit(1)
 
-
-def password_attack(document,tipo):
-
-    print('proximamente')
-
-    sys.exit(0)
-
 if __name__ == '__main__':
 
-    if len(sys.argv) != 3:
-        print('\nError, escribe el numero de documento o email a comprobar y la accion (consultar,atacar)\n')
+    if len(sys.argv) != 2:
+        print('\nError, escribe el numero de documento o email a comprobar\n')
         sys.exit(1)
-
     else:
-        if 'consultar' in sys.argv[2]:
-            get_data(sys.argv[1])
-        elif 'atacar' in sys.argv[2]:
-            password_attack()
-        else:
-            print(f'\nError, la opcion {sys.argv[2]} no existe\n')
-            sys.exit(1)
+        get_data(sys.argv[1])
